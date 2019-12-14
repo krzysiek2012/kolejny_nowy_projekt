@@ -1,2 +1,2 @@
 def duze(a):
-    return(capitalize(a))
+    return a.capitalize()
