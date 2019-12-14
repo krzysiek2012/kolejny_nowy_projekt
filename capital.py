@@ -13,6 +13,9 @@ class Testy_litery(unittest.TestCase):
     def test_upperowanie(self):
         font = upper.WIELKIE('sprawdzam jak beda wygladac literki')
         self.assertEqual(font, 'SPRAWDZAM JAK BEDA WYGLADAC LITERKI')
+    def test_zmieniasie(self):
+        font = upper.zmiana('sprawdzam czy sie zmieni banan')
+        self.assertEqual(font, 'sprawdzam czy sie zmieni brzoskwinia')
 
 
 
